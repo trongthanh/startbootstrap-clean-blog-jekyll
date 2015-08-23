@@ -14,9 +14,9 @@
 }
 
 @mixin serif() {
-	font-family: Georgia, 'Times New Roman', serif;
+	font-family: Georgia, Times, 'Times New Roman', serif;
 }
 
 @mixin sans-serif() {
-	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
 }

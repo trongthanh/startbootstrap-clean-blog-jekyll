@@ -5,7 +5,7 @@
 
 body {
 	@include serif;
-	font-size: 20px;
+	font-size: 18px;
 	color: $gray-dark;
 }
 
@@ -26,7 +26,7 @@ h4,
 h5,
 h6 {
 	@include sans-serif;
-	font-weight: 800;
+	font-weight: bold;
 }
 
 a {
@@ -49,6 +49,10 @@ blockquote {
 	font-style: italic;
 }
 
+pre {
+	font-size: 14px;
+}
+
 hr.small {
 	max-width: 100px;
 	margin: 15px auto;
@@ -67,14 +71,14 @@ hr.small {
 	z-index: 3;
 	@include sans-serif;
 	.navbar-brand {
-		font-weight: 800;
+		font-weight: bold;
 	}
 	.nav {
 		li {
 			a {
 				text-transform: uppercase;
 				font-size: 12px;
-				font-weight: 800;
+				font-weight: bold;
 				letter-spacing: 1px;
 			}
 		}
@@ -119,7 +123,7 @@ hr.small {
 			/* when the user scrolls down, we hide the header right above the viewport */
 			position: fixed;
 			top: -61px;
-			background-color: fade(white, 90%);
+			background-color: hsla(0, 100, 100, 0.9);
 			border-bottom: 1px solid darken(white, 5%);
 			-webkit-transition: -webkit-transform 0.3s;
 			-moz-transition: -moz-transform 0.3s;
@@ -206,7 +210,7 @@ hr.small {
 			@include sans-serif;
 			font-size: 24px;
 			margin: 10px 0 30px;
-			font-weight: 600;
+			font-weight: 400;
 		}
 		.meta {
 			@include serif;
@@ -371,7 +375,7 @@ form .row:first-child .floating-label-form-group {
 	@include sans-serif;
 	text-transform: uppercase;
 	font-size: 14px;
-	font-weight: 800;
+	font-weight: bold;
 	letter-spacing: 1px;
 	border-radius: 0;
 	padding: 15px 25px;
@@ -403,7 +407,7 @@ form .row:first-child .floating-label-form-group {
 			@include sans-serif;
 			text-transform: uppercase;
 			font-size: 14px;
-			font-weight: 800;
+			font-weight: bold;
 			letter-spacing: 1px;
 			padding: 10px 5px;
 			background-color: white;
