@@ -9,22 +9,26 @@ module.exports = function(grunt) {
                 dest: 'js/<%= pkg.name %>.min.js'
             }
         },
-        less: {
-            expanded: {
+        sass: {
+            dev: {
                 options: {
-                    paths: ["css"]
+                    outputStyle: 'expanded',
+                    sourceMap: true,
+                    sourceMapEmbed: true
                 },
+
                 files: {
-                    "css/<%= pkg.name %>.css": "less/<%= pkg.name %>.less"
+                    "css/<%= pkg.name %>.css": "sass/<%= pkg.name %>.scss"
                 }
             },
-            minified: {
+            dist: {
                 options: {
-                    paths: ["css"],
-                    cleancss: true
+                    outputStyle: 'compressed',
+                    sourceMap: false
                 },
+
                 files: {
-                    "css/<%= pkg.name %>.min.css": "less/<%= pkg.name %>.less"
+                    "css/<%= pkg.name %>.min.css": "sass/<%= pkg.name %>.scss"
                 }
             }
         },
@@ -45,30 +49,24 @@ module.exports = function(grunt) {
             }
         },
         watch: {
-            scripts: {
-                files: ['js/<%= pkg.name %>.js'],
-                tasks: ['uglify'],
-                options: {
-                    spawn: false,
-                },
-            },
-            less: {
-                files: ['less/*.less'],
-                tasks: ['less'],
+            sass: {
+                files: ['sass/*.scss'],
+                tasks: ['sass:dev'],
                 options: {
                     spawn: false,
                 }
-            },
-        },
+            }
+        }
     });
 
     // Load the plugins.
     grunt.loadNpmTasks('grunt-contrib-uglify');
-    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-banner');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
-    grunt.registerTask('default', ['uglify', 'less', 'usebanner']);
+    grunt.registerTask('build', ['uglify', 'sass:dist', 'usebanner']);
+    grunt.registerTask('default', ['build']);
 
 };
