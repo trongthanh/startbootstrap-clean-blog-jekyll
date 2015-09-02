@@ -9,6 +9,7 @@ twitter_username: SBootstrap
 github_username:  davidtmiller
 facebook_username:  IronSummitMedia
 gaid: UA-XXXXX-X
+disqus_site_id: cleanblogjekyllgithubpages
 
 # Build settings
 markdown: kramdown
