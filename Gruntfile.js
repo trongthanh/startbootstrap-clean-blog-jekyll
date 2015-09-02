@@ -59,6 +59,22 @@ module.exports = function(grunt) {
         }
     });
 
+    grunt.registerTask('jekyll-server', 'Serve the site through Jekyll', function() {
+    	var exec = require('child_process').exec;
+
+    	var proc = exec('bundle exec jekyll serve');
+    	proc.stdout.on('data', function(data) {
+			console.log(data);
+		});
+		proc.stderr.on('data', function(data) {
+			console.log(data);
+		});
+		proc.on('close', function(code) {
+			console.log('jekyll closing code: ' + code);
+		});
+
+    });
+
     // Load the plugins.
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-sass');
@@ -68,5 +84,6 @@ module.exports = function(grunt) {
     // Default task(s).
     grunt.registerTask('build', ['uglify', 'sass:dist', 'usebanner']);
     grunt.registerTask('default', ['build']);
+    grunt.registerTask('serve', ['jekyll-server', 'watch']);
 
 };
