@@ -111,7 +111,7 @@ hr.small {
 			}
 		}
 	}
-	@media only screen and (min-width: 1170px) {
+	@media only screen and (min-width: 768px) {
 		-webkit-transition: background-color 0.3s;
 		-moz-transition: background-color 0.3s;
 		transition: background-color 0.3s;
@@ -473,4 +473,20 @@ img::-moz-selection {
 
 body {
 	webkit-tap-highlight-color: $brand-primary;
+}
+
+// Google search fields and buttons fixes
+.cse .gsc-search-button input.gsc-search-button-v2,
+input.gsc-search-button-v2,
+.gsc-input .gsc-input-box,
+.gsc-selected-option-container.gsc-inline-block {
+	box-sizing: content-box;
+}
+
+.gsst_b .gscb_a {
+	vertical-align: middle;
+}
+
+.cse .gsc-control-cse, .row .gsc-control-cse {
+	padding: 0;
 }

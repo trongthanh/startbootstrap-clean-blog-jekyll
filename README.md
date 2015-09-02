@@ -9,12 +9,14 @@ The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://
 ## Changes from Original Jekyll Theme
 
 + Use SASS (SCSS flavor) instead of LESS
-+ Subtle changes of typography, remarkably Source Sans Pro for titles and Georgia for body texts
++ New choice of typography, remarkably Source Sans Pro for titles and Georgia for body texts
 + Support Vietnamese texts
 + Use client-side [Prism](http://prismjs.com) syntax highlighter (compatible with GitHub-flavored Markdown code fences) instead of prerendered Pygments
 + Include Google Analytics script tag. Set your GA ID at `site.gaid`
 + Include [Disqus](http://disqus.com) script to enable commenting. Set your Disqus site's ID at `site.disqus_site_id`. If not set, the comment section is omitted.
-+ TODO: Full text search using Google site search
++ Full text search using Google site search. See search.html.
++ TODO: A compact post archive (which has many blog post as possible). I believe listing the post tittle is better than Search and it generate some sort of information scent.
++ TODO: Facebook & Twitter metadata
 
 ## Before You Begin
 
