@@ -35,6 +35,10 @@ a {
 	&:focus {
 		color: $brand-primary;
 	}
+
+	&:visited {
+		color: $gray;
+	}
 }
 
 a img {
@@ -170,6 +174,7 @@ hr.small {
 	.site-heading,
 	.post-heading,
 	.page-heading {
+		text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 		padding: 100px 0 50px;
 		color: white;
 		@media only screen and (min-width: 768px) {
