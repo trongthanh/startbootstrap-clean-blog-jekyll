@@ -97,7 +97,7 @@ a img:hover, a img:focus {
 
 From this own theme
 
-```js
+```javascript
 // Navigation Scripts to Show Header on Scroll-Up
 jQuery(document).ready(function($) {
     var MQL = 1170;
