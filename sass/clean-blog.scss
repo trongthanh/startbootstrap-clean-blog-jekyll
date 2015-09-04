@@ -73,11 +73,13 @@ hr.small {
 	left: 0;
 	width: 100%;
 	z-index: 3;
-	@include sans-serif;
+
 	.navbar-brand {
 		font-weight: bold;
 	}
+
 	.nav {
+		@include sans-serif;
 		li {
 			a {
 				text-transform: uppercase;
@@ -215,7 +217,7 @@ hr.small {
 			@include sans-serif;
 			font-size: 24px;
 			margin: 10px 0 30px;
-			font-weight: 400;
+			font-weight: 300;
 		}
 		.meta {
 			@include serif;
