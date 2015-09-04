@@ -2,8 +2,8 @@
   "name": "clean-blog",
   "title": "Clean Blog",
   "version": "1.0.0",
-  "homepage": "http://startbootstrap.com",
-  "author": "Start Bootstrap",
+  "homepage": "https://github.com/trongthanh/startbootstrap-clean-blog-jekyll",
+  "author": "Start Bootstrap, Thanh Tran",
   "license": {
     "type": "Apache 2.0",
     "url": "https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE"
@@ -17,6 +17,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll.git"
+    "url": "https://github.com/trongthanh/startbootstrap-clean-blog-jekyll.git"
   }
 }
