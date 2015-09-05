@@ -15,8 +15,9 @@ The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://
 + Include Google Analytics script tag. Set your GA ID at `site.gaid`
 + Include [Disqus](http://disqus.com) script to enable commenting. Set your Disqus site's ID at `site.disqus_site_id`. If not set, the comment section is omitted.
 + Full text search using Google site search. See search.html.
-+ A compact post archive (which has many (if not all) published blog posts). I believe listing the post tittles is better than Search and it generate some sort of information scent.
++ A compact posts archive (which list all published blog posts). I believe listing the post tittles is better than Search and it generate some sort of information scent.
 + TODO: Facebook & Twitter metadata
++ TODO: Social network sharing integration
 + TODO: Better image caption using `img > em` techniques
 
 ## Before You Begin
