@@ -65,6 +65,22 @@ hr.small {
 	border-color: white;
 }
 
+/* Make all images inside article responsive*/
+article img {
+	@include img-responsive;
+	margin: auto;
+}
+
+img[align=right] {
+	margin-left: 10px; /* Add some spacing to floating images */
+	max-width: 50%; /* should not exceed half of body column */
+}
+
+img[align=left] {
+	margin-right: 10px;
+	max-width: 50%;
+}
+
 // Navigation
 
 .navbar-custom {

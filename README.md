@@ -1,4 +1,4 @@
-#Clean Blog by Start Bootstrap - GitHub Pages Version
+# Clean Blog by Start Bootstrap - GitHub Pages Version
 
 > This is a modified version of [Clean Blog Jekyll](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll) to be compatible with [GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/). Modified by [Thanh Tran](https://github.com/trongthanh) for his own blog.
 
@@ -8,7 +8,7 @@ The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://
 
 ## Changes from Original Jekyll Theme
 
-+ Use SASS (SCSS flavor) instead of LESS
++ Use SASS (SCSS flavor) instead of LESS, with minimal Bootstrap SCSS bundle
 + New choice of typography, remarkably Source Sans Pro for titles and Georgia for body texts
 + Support Vietnamese texts
 + Use client-side [Prism](http://prismjs.com) syntax highlighter (compatible with GitHub-flavored Markdown code fences) instead of prerendered Pygments
