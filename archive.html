@@ -5,7 +5,7 @@ description: "The archive of all published blog posts."
 header-img: "img/about-bg.jpg"
 ---
 <!-- Archive template modified from reyhan.org/2013/03/jekyll-archive-without-plugins.html -->
-<section id="archive">
+<section class="archive">
 	{%for post in site.posts %}
 		{% unless post.next %}
 			<h3>{{ post.date | date: '%Y' }}</h3>
