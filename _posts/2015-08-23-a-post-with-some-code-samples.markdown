@@ -2,6 +2,7 @@
 layout:     post
 title:      "A post with some code samples"
 subtitle:   "Let me show you my awesome codes"
+meta-description: "Let me show you my awesome codes"
 date:       2015-08-23 12:00:00
 author:     "Thanh Tran"
 header-img: "img/home-bg.jpg"

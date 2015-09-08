@@ -1,14 +1,15 @@
 ---
 layout: post
 title: "Mức Tối Thiểu Của Lập Trình Viên Front End"
-subtitle: "Một bài viết để tham khảo việc hiển thị Tiếng Việt"
+subtitle: A dummy post to test Vietnamese text display
+meta-description: "Một bài viết để tham khảo việc hiển thị Tiếng Việt"
 date: "2015-08-10T10:04:00.003+07:00"
 author: Trọng Thanh Trần
 tags:
 - Thoughts
 - Front End
 - Process
-modified_time: '2013-07-04T10:04:27.978+07:00'
+modified: 2015-09-08T10:43:30+07:00
 ---
 ![Tag Cloud](http://2.bp.blogspot.com/-mF8YcFrCO8Q/VXPniJnFrZI/AAAAAAAABDY/T7PQ5bKPoYs/s640/front-end-baseline.png "Tag Cloud được tạo bằng Wordle.net")
 

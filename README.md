@@ -19,6 +19,7 @@ The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://
 + TODO: Facebook & Twitter metadata
 + TODO: Social network sharing integration
 + TODO: Better image caption using `img > em` techniques
++ TODO: Add modified / update time using front matter or pushed time
 
 ## Before You Begin
 
