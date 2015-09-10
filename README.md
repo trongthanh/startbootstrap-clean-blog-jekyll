@@ -16,6 +16,7 @@ The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://
 + Include [Disqus](http://disqus.com) script to enable commenting. Set your Disqus site's ID at `site.disqus_site_id`. If not set, the comment section is omitted.
 + Full text search using Google site search. See search.html.
 + A compact posts archive (which list all published blog posts). I believe listing the post tittles is better than Search and it generate some sort of information scent.
++ TODO: Employ (new) GitHub Pages' [Jekyll feed plugin](https://help.github.com/articles/atom-rss-feeds-for-github-pages/)
 + TODO: Facebook & Twitter metadata
 + TODO: Social network sharing integration
 + TODO: Better image caption using `img > em` techniques
