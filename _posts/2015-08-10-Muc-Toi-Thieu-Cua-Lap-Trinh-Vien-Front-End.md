@@ -11,7 +11,7 @@ tags:
 - Process
 modified: 2015-09-08T10:43:30+07:00
 ---
-![Tag Cloud](http://2.bp.blogspot.com/-mF8YcFrCO8Q/VXPniJnFrZI/AAAAAAAABDY/T7PQ5bKPoYs/s640/front-end-baseline.png "Tag Cloud được tạo bằng Wordle.net")
+![Tag Cloud]({{ site.baseurl }}/img/front-end-baseline.png "Tag Cloud được tạo bằng Wordle.net")_Tag Cloud được tạo bằng Wordle.net_
 
 ## Mức kỹ năng tối thiểu (baseline) là gì?
 
@@ -19,7 +19,7 @@ Là hệ thống kỹ năng và kiến thức tối thiểu của một nhân vi
 
 ## Tại sao phải có mức tối thiểu cho lập trình viên Front End?
 
-<img align="right" src="http://2.bp.blogspot.com/-bhkZ88s-OXg/VdGOraNblLI/AAAAAAAARig/U7fH8-C9UbU/s320/eloquent-javascript-cover.png " alt="Eloquent JavaScript book cover" />
+<img align="right" src="{{ site.baseurl }}/img/eloquent-javascript-cover.png" alt="Eloquent JavaScript book cover" />_Eloquent JavaScript book cover_
 
 Từ kinh nghiệm làm việc trong nhiều nhóm phát triển phần mềm lớn nhỏ khác nhau, tôi nhận ra rằng việc thiết lập hệ thống kỹ năng tối thiểu cũng quan trọng không kém việc đề ra quy ước và cách viết code chuẩn của nhóm. Rõ ràng việc nâng chuẩn kiến thức và kỹ năng của từng thành viên lên không chỉ giúp công việc được phối hợp nhịp nhàng hơn mà còn cải thiện hiệu suất làm việc của các bạn.
 
