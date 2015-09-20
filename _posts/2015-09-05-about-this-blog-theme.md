@@ -5,7 +5,7 @@ meta-description: This is a modified version of Clean Blog Jekyll to be compatib
 date:       2015-09-05T14:53:26+07:00
 author:     "Tran Trong Thanh"
 header-img: "img/post-bg-02.jpg"
-modified: 2015-09-08T10:43:48+07:00
+modified: 2015-09-20T11:29:15+07:00
 ---
 
 # Clean Blog by Start Bootstrap - GitHub Pages Version
@@ -14,21 +14,27 @@ modified: 2015-09-08T10:43:48+07:00
 
 The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
 
-###[View Live Demo &rarr;](https://trongthanh.github.io/startbootstrap-clean-blog-jekyll)
+### [View Live Demo &rarr;](https://trongthanh.github.io/startbootstrap-clean-blog-jekyll)
 
 ## Changes from Original Jekyll Theme
 
 + Use SASS (SCSS flavor) instead of LESS, with minimal Bootstrap SCSS bundle
 + New choice of typography, remarkably Source Sans Pro for titles and Georgia for body texts
 + Support Vietnamese texts
-+ Use client-side [Prism](http://prismjs.com) syntax highlighter (compatible with GitHub-flavored Markdown code fences) instead of prerendered Pygments
++ Use client-side [Prism](http://prismjs.com) syntax highlighter (compatible with GitHub-flavored Markdown code fences) instead of pre-rendered Pygments
 + Include Google Analytics script tag. Set your GA ID at `site.gaid`
 + Include [Disqus](http://disqus.com) script to enable commenting. Set your Disqus site's ID at `site.disqus_site_id`. If not set, the comment section is omitted.
-+ Full text search using Google site search. See search.html.
++ Full text search using Google site search. See _search.html_.
 + A compact posts archive (which list all published blog posts). I believe listing the post tittles is better than Search and it generate some sort of information scent.
++ Better image caption using `img + em` technique. See [this example]({% post_url 2015-08-10-Muc-Toi-Thieu-Cua-Lap-Trinh-Vien-Front-End %})
++ Optional: To enable [automatic feed generation](https://help.github.com/articles/atom-rss-feeds-for-github-pages/) supported by GitHub Pages, remove or rename the _feed.xml_ file and add the following line to your site's *_config.yml* file:
+```
+gems:
+	+ jekyll-feed
+```
 + TODO: Facebook & Twitter metadata
 + TODO: Social network sharing integration
-+ TODO: Better image caption using `img > em` techniques
++ TODO: Add modified / update time using front matter or pushed time
 
 ## Before You Begin
 
