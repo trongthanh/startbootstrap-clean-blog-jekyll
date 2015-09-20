@@ -16,7 +16,7 @@ The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://
 + Include [Disqus](http://disqus.com) script to enable commenting. Set your Disqus site's ID at `site.disqus_site_id`. If not set, the comment section is omitted.
 + Full text search using Google site search. See _search.html_.
 + A compact posts archive (which list all published blog posts). I believe listing the post tittles is better than Search and it generate some sort of information scent.
-+ Better image caption using `img + em` technique. See [this example]({% post_url 2015-08-10-Muc-Toi-Thieu-Cua-Lap-Trinh-Vien-Front-End %})
++ Better image caption using `img + em` technique. See [this example](http://blog.int3ractive.com/startbootstrap-clean-blog-jekyll/2015/08/10/Muc-Toi-Thieu-Cua-Lap-Trinh-Vien-Front-End/)
 + Optional: To enable [automatic feed generation](https://help.github.com/articles/atom-rss-feeds-for-github-pages/) supported by GitHub Pages, remove or rename the _feed.xml_ file and add the following line to your site's *_config.yml* file:
 ```
 gems:
