@@ -22,4 +22,5 @@ permalink: pretty
 paginate: 5
 exclude: ["sass","node_modules","Gruntfile.js","package.json","README.md", "Gemfile", "Gemfile.lock"]
 keep_files: []
-
+gems:
+  - jekyll-feed
