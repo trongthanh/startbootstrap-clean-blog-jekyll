@@ -19,7 +19,7 @@ trim_trailing_whitespace = true
 
 trim_trailing_whitespace = false
 
-[package.json,*.xml]
+[{package.json,*.xml,*.yml}]
 # package.json adhere to --save-dev manipulation styles
 indent_style = space
 indent_size = 2

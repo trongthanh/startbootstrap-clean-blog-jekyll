@@ -24,3 +24,4 @@ exclude: ["sass","node_modules","Gruntfile.js","package.json","README.md", "Gemf
 keep_files: []
 gems:
   - jekyll-feed
+  - jekyll-paginate

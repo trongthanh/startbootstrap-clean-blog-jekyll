@@ -9,7 +9,7 @@ The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://
 ## Changes from Original Jekyll Theme
 
 + Use SASS (SCSS flavor) instead of LESS, with minimal Bootstrap SCSS bundle
-+ New choice of typography, remarkably Source Sans Pro for titles and Georgia for body texts
++ New choice of typography, remarkably Source Sans Pro for titles and Noto Serif for body texts
 + Support Vietnamese texts
 + Use client-side [Prism](http://prismjs.com) syntax highlighter (compatible with GitHub-flavored Markdown code fences) instead of pre-rendered Pygments
 + Include Google Analytics script tag. Set your GA ID at `site.gaid`

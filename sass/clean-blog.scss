@@ -6,8 +6,10 @@
 
 body {
 	@include serif;
-	font-size: 18px;
+	font-size: 19px;
 	color: $gray-dark;
+	// reduce boldness of fonts
+	-webkit-font-smoothing: antialiased;
 }
 
 // -- Typography
@@ -24,7 +26,7 @@ h4,
 h5,
 h6 {
 	@include sans-serif;
-	font-weight: bold;
+	font-weight: 600;
 }
 
 a {
@@ -128,7 +130,7 @@ img[align=left] {
 			a {
 				text-transform: uppercase;
 				font-size: 12px;
-				font-weight: bold;
+				font-weight: 600;
 				letter-spacing: 1px;
 			}
 		}
@@ -266,7 +268,7 @@ img[align=left] {
 		.meta {
 			@include serif;
 			font-style: italic;
-			font-weight: 300;
+			font-weight: normal;
 			font-size: 20px;
 			a {
 				color: white;
@@ -438,7 +440,7 @@ form .row:first-child .floating-label-form-group {
 	@include sans-serif;
 	text-transform: uppercase;
 	font-size: 14px;
-	font-weight: bold;
+	font-weight: 600;
 	letter-spacing: 1px;
 	border-radius: 0;
 	padding: 15px 25px;
@@ -470,7 +472,7 @@ form .row:first-child .floating-label-form-group {
 			@include sans-serif;
 			text-transform: uppercase;
 			font-size: 14px;
-			font-weight: bold;
+			font-weight: 600;
 			letter-spacing: 1px;
 			padding: 10px 5px;
 			background-color: white;
