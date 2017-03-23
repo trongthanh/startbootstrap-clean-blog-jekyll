@@ -4,24 +4,29 @@ header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: "/startbootstrap-clean-blog-jekyll"
+author: "Thanh Tran (int3ractive.com)"
 url: "http://yourdomain.com"
 twitter_username: SBootstrap
-github_username:  davidtmiller
-facebook_username:  IronSummitMedia
+github_username: davidtmiller
+facebook_username: IronSummitMedia
 gaid: UA-XXXXX-X
 disqus_site_id: cleanblogjekyllgithubpages
+
+# Plugins
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
 
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
-highlighter: pygments
-safe: true
+highlighter: rouge
+safe: false # safe need to be off for local preview
 lsi: false
 permalink: pretty
 paginate: 5
-exclude: ["sass","node_modules","Gruntfile.js","package.json","README.md", "Gemfile", "Gemfile.lock"]
+exclude: ["sass","node_modules","Gruntfile.js","package.json","README.md"]
 keep_files: []
-gems:
-  - jekyll-feed
-  - jekyll-paginate
