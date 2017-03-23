@@ -1,6 +1,7 @@
 # Site settings
 title: Clean Blog
-header-img: img/home-bg.jpg
+image: img/home-bg.jpg
+logo: img/favicon.png
 email: your-email@yourdomain.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: "/startbootstrap-clean-blog-jekyll"
