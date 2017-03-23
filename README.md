@@ -15,16 +15,12 @@ The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://
 + Include Google Analytics script tag. Set your GA ID at `site.gaid`
 + Include [Disqus](http://disqus.com) script to enable commenting. Set your Disqus site's ID at `site.disqus_site_id`. If not set, the comment section is omitted.
 + Full text search using Google site search. See _search.html_.
-+ A compact posts archive (which list all published blog posts). I believe listing the post tittles is better than Search and it generate some sort of information scent.
++ A compact posts archive (which list all published blog posts). I believe listing the post titles is better than Search and it generate some sort of information scent.
 + Better image caption using `img + em` technique. See [this example](http://blog.int3ractive.com/startbootstrap-clean-blog-jekyll/2015/08/10/Muc-Toi-Thieu-Cua-Lap-Trinh-Vien-Front-End/)
-+ Optional: To enable [automatic feed generation](https://help.github.com/articles/atom-rss-feeds-for-github-pages/) supported by GitHub Pages, remove or rename the _feed.xml_ file and add the following line to your site's *_config.yml* file:
-```
-gems:
-	+ jekyll-feed
-```
-+ TODO: Facebook & Twitter metadata
-+ TODO: Social network sharing integration
-+ TODO: Add modified / update time using front matter or pushed time
++ Enable [automatic feed generation](https://help.github.com/articles/atom-rss-feeds-for-github-pages/) supported by GitHub Pages, added **jekyll-feed** in **gems** in *_config.yml* file
++ Enable auto sitemap, added [**jekyll-sitemap**](https://help.github.com/articles/sitemaps-for-github-pages/) in **gems** in *_config.yml* file
++ Enable [**jekyll-seo-tag**](https://github.com/jekyll/jekyll-seo-tag) plugin to generate SEO and social network friendly tags
++ **TODO:** Add modified / update time using front matter or pushed time
 
 ## Before You Begin
 
@@ -43,6 +39,6 @@ You can also run `grunt serve` to watch for changes and test the blog in one com
 
 ## Support
 
-This theme is for my own blog which is customized with my own preferences. Issue reports are welcome but I may have little time to respond to questions or installation support. 
+This theme is for my own blog which is customized with my own preferences. Issue reports are welcome but I may have little time to respond to questions or installation support.
 
 Besides, please visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ for extra info and comments.
