@@ -20,6 +20,7 @@ The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://
 + Enable [automatic feed generation](https://help.github.com/articles/atom-rss-feeds-for-github-pages/) supported by GitHub Pages, added **jekyll-feed** in **gems** in *_config.yml* file
 + Enable auto sitemap, added [**jekyll-sitemap**](https://help.github.com/articles/sitemaps-for-github-pages/) in **gems** in *_config.yml* file
 + Enable [**jekyll-seo-tag**](https://github.com/jekyll/jekyll-seo-tag) plugin to generate SEO and social network friendly tags
++ **TODO:** Implement tags labelling for posts and view by tags
 + **TODO:** Add modified / update time using front matter or pushed time
 
 ## Before You Begin
