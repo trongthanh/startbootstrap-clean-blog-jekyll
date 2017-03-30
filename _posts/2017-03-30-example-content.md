@@ -2,10 +2,10 @@
 layout: post
 title:      "Example Content"
 description: This is a modified version of Clean Blog Jekyll to be compatible with GitHub Pages. Modified by Thanh Tran for his own blog.
-date:       2017-03-30T19:17:42+07:00
+date:     2015-09-20T11:29:15+07:00
 author:     "Tran Trong Thanh"
 image: "img/post-bg-02.jpg"
-modified: 2015-09-20T11:29:15+07:00
+modified: 2017-03-30T19:17:42+07:00
 ---
 
 Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
@@ -85,9 +85,21 @@ Quisque consequat sapien eget quam rhoncus, sit amet laoreet diam tempus. Aliqua
 
 ![placeholder](http://placehold.it/800x400 "Large example image")_Caption large image_
 
-![placeholder](http://placehold.it/400x200 "Medium example image")_Caption Medium image_
+<img align="right" src="http://placehold.it/400x200" alt="placeholder" title="Medium example image">_Caption Medium image_
 
-![placeholder](http://placehold.it/200x200 "Small example image")_Caption Small image_
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat.
+
+<img align="left" alt="placeholder" src="http://placehold.it/200x200" title="Small example image">_Caption Small image_
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
 
 ### Tables
 

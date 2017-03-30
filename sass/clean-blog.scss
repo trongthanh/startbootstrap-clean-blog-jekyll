@@ -6,10 +6,15 @@
 
 body {
 	@include serif;
-	font-size: 19px;
+	font-size: 17px;
 	color: $gray-dark;
-	// reduce boldness of fonts
+	// reduce boldness of thin text on macOS
 	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+
+	@media (min-width: $screen-sm) {
+		font-size: 19px;
+	}
 }
 
 // -- Typography
@@ -350,6 +355,10 @@ img[align=left] {
 	display: block;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
+}
+
+.update-note {
+	margin-bottom: 0;
 }
 
 .comments {

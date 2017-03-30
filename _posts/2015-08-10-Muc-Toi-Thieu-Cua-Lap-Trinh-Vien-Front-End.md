@@ -2,7 +2,7 @@
 layout: post
 title: "Mức Tối Thiểu Của Lập Trình Viên Front End"
 subtitle: A dummy post to test Vietnamese text display
-meta-description: "Một bài viết để tham khảo việc hiển thị Tiếng Việt"
+description: "Một bài viết để tham khảo việc hiển thị Tiếng Việt"
 date: "2015-08-10T10:04:00.003+07:00"
 author: Trọng Thanh Trần
 tags:
