@@ -69,7 +69,7 @@ module.exports = function(grunt) {
     grunt.registerTask('jekyll-server', 'Serve the site through Jekyll', function() {
     	var exec = require('child_process').exec;
 
-    	var proc = exec('bundle exec jekyll serve');
+    	var proc = exec('bundle exec jekyll serve --host 0.0.0.0');
     	proc.stdout.on('data', function(data) {
 			console.log(data);
 		});

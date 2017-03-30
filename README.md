@@ -1,6 +1,6 @@
 # Clean Blog by Start Bootstrap - GitHub Pages version by Thanh Tran
 
-> This is a modified version of [Clean Blog Jekyll](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll) to be compatible with [GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/). Modified by [Thanh Tran](https://github.com/trongthanh) for his own blog.
+> This is a modified version of [Clean Blog Jekyll](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll) to be fully compatible with [GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/) (no pre-compilation needed). Modified by [Thanh Tran](https://github.com/trongthanh) for his own blog.
 
 The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
 
@@ -23,6 +23,13 @@ The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://
 + **TODO:** Implement tags labelling for posts and view by tags
 + **TODO:** Add modified / update time using front matter or pushed time
 
+## Note on the SEO plugin and front matter
+
++ Use `title` for both post title and HTML page title
++ Use `subtitle` for the text below the main title
++ Use `description` for meta and open graph description
++ Use `image` for both post header image and open graph image 
+
 ## Before You Begin
 
 In the _config.yml_ file, the base URL is set to `/startbootstrap-clean-blog-jekyll` which is this themes gh-pages preview. It's recommended that you remove the base URL before working with this theme locally!
@@ -37,7 +44,7 @@ This Jekyll theme is customized to run well on GitHub Pages, therefore it must b
 A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the SCSS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the SCSS.
 
 You can also run `grunt serve` to watch for changes and test the blog in one command.
-
+    
 ## Support
 
 This theme is for my own blog which is customized with my own preferences. Issue reports are welcome but I may have little time to respond to questions or installation support.
