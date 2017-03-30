@@ -4,7 +4,7 @@ title:      "About This Blog Theme"
 meta-description: This is a modified version of Clean Blog Jekyll to be compatible with GitHub Pages. Modified by Thanh Tran for his own blog.
 date:       2015-09-05T14:53:26+07:00
 author:     "Tran Trong Thanh"
-header-img: "img/post-bg-02.jpg"
+image: "img/post-bg-02.jpg"
 modified: 2015-09-20T11:29:15+07:00
 ---
 
