@@ -1,4 +1,5 @@
-/* http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascript+markdown+scss */
+/* PrismJS 1.14.0
+http://prismjs.com/download.html?#themes=prism&languages=markup+css+clike+javascript+bash+css-extras+diff+markup-templating+git+graphql+handlebars+ini+json+less+markdown+nginx+properties+jsx+scss */
 /**
  * prism.js default theme for JavaScript, CSS and HTML
  * Based on dabblet (http://dabblet.com)
@@ -6,12 +7,11 @@
  */
 
 code[class*="language-"],
-pre[class*="language-"],
-[data-language] {
+pre[class*="language-"] {
 	color: black;
+	background: none;
 	text-shadow: 0 1px white;
 	font-family: Monaco, Consolas, "Liberation Mono", Menlo, monospace;
-	direction: ltr;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -64,6 +64,7 @@ pre[class*="language-"] {
 :not(pre) > code[class*="language-"] {
 	padding: .1em;
 	border-radius: .3em;
+	white-space: normal;
 }
 
 .token.comment,
@@ -105,7 +106,7 @@ pre[class*="language-"] {
 .token.url,
 .language-css .token.string,
 .style .token.string {
-	color: #a67f59;
+	color: #9a6e3a;
 	background: hsla(0, 0%, 100%, .5);
 }
 
@@ -115,7 +116,8 @@ pre[class*="language-"] {
 	color: #07a;
 }
 
-.token.function {
+.token.function,
+.token.class-name {
 	color: #DD4A68;
 }
 
@@ -142,12 +144,14 @@ pre[class*="language-"] {
 	position: relative;
 }
 
-.highlighter-rouge {
+.highlight {
 	position: relative;
+	white-space: normal; /*fix extra height at the code wrappers*/
 }
 
-.highlighter-rouge[data-language]::before {
+div.highlight[data-language]::before {
 	content: attr(data-language);
+	font-family: Monaco, Consolas, "Liberation Mono", Menlo, monospace;
 	color: black;
 	background-color: #CFCFCF;
 	display: inline-block;
