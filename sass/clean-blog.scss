@@ -7,7 +7,7 @@
 body {
 	@include serif;
 	font-size: 17px;
-	color: $gray-dark;
+	color: $gray-darker;
 	// reduce boldness of thin text on macOS
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -20,7 +20,7 @@ body {
 // -- Typography
 
 p {
-	line-height: 1.5;
+	line-height: 1.6;
 	margin: 1.6666666666666667em 0; /* 30/18 */
 }
 
@@ -32,6 +32,8 @@ h5,
 h6 {
 	@include sans-serif;
 	font-weight: 600;
+	/* avoid floating figure image leaked into other sections */
+	clear: both;
 }
 
 a {
@@ -54,6 +56,12 @@ a img {
 	&:focus {
 		cursor: zoom-in;
 	}
+}
+
+h1 > a, h1 > a:hover,
+h2 > a, h2 > a:hover,
+h3> a, h3 > a:hover {
+	text-decoration: none;
 }
 
 blockquote {
@@ -252,7 +260,7 @@ img[align=left] {
 		}
 		@media only screen and (min-width: 768px) {
 			h1 {
-				font-size: 80px;
+				font-size: 70px;
 			}
 		}
 	}
@@ -267,7 +275,7 @@ img[align=left] {
 		}
 		.subheading {
 			@include sans-serif;
-			font-size: 24px;
+			font-size: 20px;
 			margin: 10px 0 30px;
 			font-weight: 300;
 		}
@@ -275,17 +283,17 @@ img[align=left] {
 			@include serif;
 			font-style: italic;
 			font-weight: normal;
-			font-size: 20px;
+			font-size: 18px;
 			a {
 				color: white;
 			}
 		}
 		@media only screen and (min-width: 768px) {
 			h1 {
-				font-size: 55px;
+				font-size: 50px;
 			}
 			.subheading {
-				font-size: 30px;
+				font-size: 28px;
 			}
 		}
 	}

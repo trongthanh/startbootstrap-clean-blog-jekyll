@@ -1,3 +1,5 @@
+const sass = require('node-sass');
+
 module.exports = function(grunt) {
 
     // Project configuration.
@@ -12,6 +14,7 @@ module.exports = function(grunt) {
         sass: {
             dev: {
                 options: {
+                	implementation: sass,
                     outputStyle: 'expanded',
                     sourceMap: true,
                     sourceMapEmbed: true
@@ -23,8 +26,9 @@ module.exports = function(grunt) {
             },
             dist: {
                 options: {
+                	implementation: sass,
                     outputStyle: 'compressed',
-                    sourceMap: false
+                    sourceMap: true
                 },
 
                 files: {

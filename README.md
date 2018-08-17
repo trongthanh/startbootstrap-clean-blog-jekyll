@@ -6,10 +6,15 @@ The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://
 
 ### [View Live Demo &rarr;](https://trongthanh.github.io/startbootstrap-clean-blog-jekyll)
 
+## New Changes (since 2018)
+
++ New choice of typography, remarkably **Open Sans** for titles and **Lora** for body texts.
++ Implement **read-time** partial without plugins, use it in Post meta and blog index.
+
 ## Changes from Original Jekyll Theme
 
-+ Use SASS (SCSS flavor) instead of LESS, with minimal Bootstrap SCSS bundle
-+ New choice of typography, remarkably Source Sans Pro for titles and Noto Serif for body texts
++ Use SASS (SCSS flavor) instead of LESS, with minimal Bootstrap SCSS bundle.
++ ~~New choice of typography, remarkably Source Sans Pro for titles and Noto Serif for body texts.~~
 + Support Vietnamese texts
 + Use client-side [Prism](http://prismjs.com) syntax highlighter (compatible with GitHub-flavored Markdown code fences) instead of pre-rendered Pygments
 + Include Google Analytics script tag. Set your GA ID at `site.gaid`
@@ -39,7 +44,7 @@ It should look like this:
 
 ## What's Included
 
-This Jekyll theme is customized to run well on GitHub Pages, therefore it must be built or previewed with `github-pages` gem to align the plugins and settings. Follow [this article](https://help.github.com/articles/using-jekyll-with-pages/#installing-jekyll) for environment installation. After that, you can start previewing the generated site with `bundle exec jekyll serve`.
+This Jekyll theme is customized to run well on GitHub Pages, therefore it must be built or previewed with `github-pages` gem bundle to align the plugins and settings. Follow [this article](https://help.github.com/articles/using-jekyll-with-pages/#installing-jekyll) for environment installation. After that, you can start previewing the generated site with `bundle exec jekyll serve`.
 
 A Grunt environment is also included. There are a number of tasks it performs like minification of the JavaScript, compiling of the SCSS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the SCSS.
 
@@ -50,3 +55,21 @@ You can also run `grunt serve` to watch for changes and test the blog in one com
 This theme is for my own blog which is customized with my own preferences. Issue reports are welcome but I may have little time to respond to questions or installation support.
 
 Besides, please visit Clean Blog's template overview page on Start Bootstrap at http://startbootstrap.com/template-overviews/clean-blog/ for extra info and comments.
+
+---
+```
+Copyright 2015 Start Bootstrap
+Copyright 2015-2018 Tran Trong Thanh.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```

@@ -14,9 +14,9 @@
 }
 
 @mixin serif() {
-	font-family: Noto Serif, serif;
+	font-family: $font-family-serif;
 }
 
 @mixin sans-serif() {
-	font-family: Source Sans Pro, Helvetica, Verdana, sans-serif;
+	font-family: $font-family-sans-serif;
 }

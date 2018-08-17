@@ -1,7 +1,8 @@
 _site
 node_modules
-*.css.map
 Gemfile.lock
+yarn.lock
+package-lock.json
 
 # NodeJS #
 ####################
