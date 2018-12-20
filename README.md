@@ -1,5 +1,7 @@
 # Clean Blog by Start Bootstrap - GitHub Pages version by Thanh Tran
 
+**DEPRECATION NOTICE**: I **stopped maintaining** this separate theme repo. Instead, I moved the theme source over to [my blog repo](https://github.com/trongthanh/trongthanh.github.com) and keep working / customizing it to suit my need with faster iteration. Feel free to fork this repo if you want the more basic Clean Blog theme without all of my customization.
+
 > This is a modified version of [Clean Blog Jekyll](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll) to be fully compatible with [GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages/) (no pre-compilation needed). Modified by [Thanh Tran](https://github.com/trongthanh) for his own blog.
 
 The official Jekyll version of the Clean Blog theme by [Start Bootstrap](http://startbootstrap.com/).
